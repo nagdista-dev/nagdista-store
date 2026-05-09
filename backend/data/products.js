@@ -1,6 +1,5 @@
 export const products = [
   {
-    user: "64f1a1a1a1a1a1a1a1a1a1a1",
     name: "iPhone 15 Pro",
     description: "Latest Apple smartphone with A17 Pro chip and titanium design.",
     image: "https://images.unsplash.com/photo-1696446700905-4b6a5b2f1c1a",
@@ -13,7 +12,6 @@ export const products = [
     reviews: [],
   },
   {
-    user: "64f1a1a1a1a1a1a1a1a1a1a1",
     name: "Samsung Galaxy S24",
     description: "Flagship Samsung phone with AI features and great camera.",
     image: "https://images.unsplash.com/photo-1706009628776-0d2c7a1f5d11",
@@ -26,7 +24,6 @@ export const products = [
     reviews: [],
   },
   {
-    user: "64f1a1a1a1a1a1a1a1a1a1a1",
     name: "Nike Air Max 270",
     description: "Comfortable running shoes with modern design.",
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
@@ -39,7 +36,6 @@ export const products = [
     reviews: [],
   },
   {
-    user: "64f1a1a1a1a1a1a1a1a1a1a1",
     name: "MacBook Air M2",
     description: "Lightweight laptop with Apple M2 chip and long battery life.",
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
@@ -52,7 +48,6 @@ export const products = [
     reviews: [],
   },
   {
-    user: "64f1a1a1a1a1a1a1a1a1a1a1",
     name: "Sony WH-1000XM5",
     description: "Noise cancelling headphones with premium sound quality.",
     image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb",
