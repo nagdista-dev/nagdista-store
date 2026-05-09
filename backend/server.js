@@ -2,6 +2,7 @@ import express from "express";
 import "dotenv/config";
 import cors from "cors";
 import connectDB from "./config/db.config.js";
+import { errorHandler, notFound } from "./middlewares/error.middleware.js";
 // !START BUILDING
 // @CONNECT DATABASE
 await connectDB();
@@ -19,6 +20,9 @@ app.use(
 app.get("/", (_, res) => {
   res.json({ message: "Nagdista Store Server is Running" });
 });
+// @ERROR MIDDLEWARES
+app.use(notFound);
+app.use(errorHandler);
 // @LISTEN
 app.listen(port, () => {
   console.log(`Server Running On Port: ${port}`);
